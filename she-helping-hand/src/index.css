@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-primary: #15803d; /* Tailwind green-700 */
+  --color-primary-dark: #166534; /* Tailwind green-800 */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.glass-nav {
+  @apply bg-white/80 backdrop-blur-md border-b border-gray-100;
+}
+
+.section-padding {
+  @apply py-20 px-6 md:px-12 lg:px-24;
+}
+
+.heading-lg {
+  @apply font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900;
+}
+
+.heading-md {
+  @apply font-display text-3xl md:text-4xl font-bold tracking-tight text-gray-900;
+}
+
+.text-body {
+  @apply text-lg text-gray-600 leading-relaxed;
+}

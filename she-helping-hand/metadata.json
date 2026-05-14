@@ -1,0 +1,8 @@
+{
+  "name": "SHE HELPING HAND",
+  "description": "A modern, professional website for an NGO focusing on humanitarian support, empowerment, and community development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
