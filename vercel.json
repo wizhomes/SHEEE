@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd she-helping-hand && npm run build",
+  "outputDirectory": "she-helping-hand/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
